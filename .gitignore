@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BdayManager/Bday.Library/bin/Debug
+/BdayManager/Bday.Library/obj/Debug
+*.suo
+/BdayManager/BdayWeb/bin
+/BdayManager/BdayWeb/obj/Debug
+*.user
