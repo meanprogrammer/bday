@@ -25,5 +25,10 @@ namespace BdayWeb
             members.Add(new Member() { ID = 9, Name = "Gwen Rebater" });
             members.Add(new Member() { ID = 10, Name = "Mikio Mukai" });
         }
+
+        protected void RandomizeButton_Click(object sender, EventArgs e)
+        {
+            RandomHelper.GetRandomInteger();
+        }
     }
 }

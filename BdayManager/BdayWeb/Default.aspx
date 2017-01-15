@@ -17,12 +17,18 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <label for="TextBox1">Person 1</label>
+                <label for="TextBox1">Primary</label>
                 <asp:TextBox ID="TextBox1" CssClass="form-control" ReadOnly="true" runat="server"></asp:TextBox>
             </div>
             <div class="col-md-6">
-                 <label for="TextBox2">Person 2</label>
+                 <label for="TextBox2">Alalay</label>
                 <asp:TextBox ID="TextBox2" CssClass="form-control" ReadOnly="true" runat="server"></asp:TextBox>
+            </div>
+        </div>
+        &nbsp;
+        <div class="row">
+            <div class="col-md-12">
+                    <asp:Button ID="RandomizeButton" CssClass="btn btn-md btn-primary" runat="server" Text="Randomize Punong Abala" OnClick="RandomizeButton_Click" />
             </div>
         </div>
     </div>
