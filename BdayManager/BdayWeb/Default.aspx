@@ -20,7 +20,7 @@
                 <label for="TextBox1">Primary</label>
                 <asp:TextBox ID="TextBox1" CssClass="form-control" ReadOnly="true" runat="server"></asp:TextBox>
             </div>
-            <div class="col-md-6  col-sm-6 col-lg-12">
+            <div class="col-md-6  col-sm-6 col-lg-6">
                  <label for="TextBox2">Alalay</label>
                 <asp:TextBox ID="TextBox2" CssClass="form-control" ReadOnly="true" runat="server"></asp:TextBox>
             </div>
