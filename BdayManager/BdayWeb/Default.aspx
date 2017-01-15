@@ -11,23 +11,23 @@
     <form id="form1" runat="server">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-lg-12 col-sm-12">
                 <h2>Birthday Randomizer</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 col-lg-6">
                 <label for="TextBox1">Primary</label>
                 <asp:TextBox ID="TextBox1" CssClass="form-control" ReadOnly="true" runat="server"></asp:TextBox>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  col-sm-6 col-lg-12">
                  <label for="TextBox2">Alalay</label>
                 <asp:TextBox ID="TextBox2" CssClass="form-control" ReadOnly="true" runat="server"></asp:TextBox>
             </div>
         </div>
         &nbsp;
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-lg-12">
                     <asp:Button ID="RandomizeButton" CssClass="btn btn-md btn-primary" runat="server" Text="Randomize Punong Abala" OnClick="RandomizeButton_Click" />
             </div>
         </div>
