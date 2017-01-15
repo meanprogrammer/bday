@@ -9,9 +9,19 @@ namespace Bday.Library
 {
     public class RandomHelper
     {
-        public static int GetRandomInteger()
+        public static int GetRandomInteger(int min, int max)
         {
+            RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
+            byte[] buffer = new byte[4];
+
+            rng.GetBytes(buffer);
+            int result = BitConverter.ToInt32(buffer, 0);
+
+            return new Random(result).Next(min, max);
+
+            /*
             int value = 0;
+            while(value < )
             using (RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider())
             {
                 // Buffer storage.
@@ -24,6 +34,7 @@ namespace Bday.Library
                 value = BitConverter.ToInt32(data, 0);
             }
             return value;
+             */
         }
     }
 }
